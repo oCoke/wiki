@@ -1,8 +1,8 @@
 {
-  "name": "wiki",
+  "name": "ywiki",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "YFun <awa@outlook.ie>",
+  "author": "YWiki",
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.13"

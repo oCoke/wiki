@@ -1,13 +1,13 @@
 module.exports = {
     base: "/",
     lang: 'zh-CN',
-    title: "YFun's Wiki",
-    description: "YFun 的编程维基",
-    head: [['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/oCoke/cdn@master/favicons/64x64.png' }]],
+    title: "YWiki",
+    description: "编程维基",
+    head: [['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/oCoke/cdn@master/favicons/favicon.svg' }]],
 
     themeConfig: {
         home: "/",
-        logo: 'https://cdn.jsdelivr.net/gh/oCoke/cdn@master/favicons/64x64.png',
+        logo: 'https://cdn.jsdelivr.net/gh/oCoke/cdn@master/favicons/favicon.svg',
         navbar: [
 
             {
@@ -30,7 +30,11 @@ module.exports = {
         backToHome: "返回首页",
         openInNewWindow: "在新标签页中打开",
         contributors: true,
-        contributorsText: "贡献者"
+        contributorsText: "贡献者",
+        docsRepo: 'https://github.com/oCoke/ywiki',
+        docsBranch: 'master',
+        docsDir: 'docs',
+        editLinkPattern: ':repo/:edit/:branch/:path',
     },
     themePlugins: {
         activeHeaderLinks: true,
